@@ -1,15 +1,15 @@
 import gin_config
 import gflownet
 
-include 'configs/users/piotr.gin'
-include 'configs/loggers/wandb.gin'
-include 'configs/envs/retro.gin'
-include 'configs/policies/retro.gin'
-include 'configs/samplers/sequential.gin'
-include 'configs/proxies/retro_chemformer.gin'
-include 'configs/rewards/exponential.gin'
-include 'configs/objectives/conditioned_trajectory_balance.gin'
-include 'configs/replay_buffers/retro.gin'
+include '/arc/home/robiny12/RetroGFN/configs/users/piotr.gin'
+include '/arc/home/robiny12/RetroGFN/configs/loggers/wandb.gin'
+include '/arc/home/robiny12/RetroGFN/configs/envs/retro.gin'
+include '/arc/home/robiny12/RetroGFN/configs/policies/retro.gin'
+include '/arc/home/robiny12/RetroGFN/configs/samplers/sequential.gin'
+include '/arc/home/robiny12/RetroGFN/configs/proxies/retro_chemformer.gin'
+include '/arc/home/robiny12/RetroGFN/configs/rewards/exponential.gin'
+include '/arc/home/robiny12/RetroGFN/configs/objectives/conditioned_trajectory_balance.gin'
+include '/arc/home/robiny12/RetroGFN/configs/replay_buffers/retro.gin'
 
 run_dir = @run_dir/get_str()
 run_dir/get_str.format = '{}/{}'

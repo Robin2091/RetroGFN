@@ -1,4 +1,4 @@
-WandbLogger.mode = 'online'
+WandbLogger.mode = 'offline'
 WandbLogger.project_name = 'GFlowNets'
 
 WandbLogger.logdir = @logdir/get_str()

@@ -1,14 +1,14 @@
 import gin_config
 import gflownet
 
-include 'configs/users/piotr.gin'
-include 'configs/loggers/wandb.gin'
-include 'configs/envs/hypergrid.gin'
-include 'configs/policies/hypergrid.gin'
-include 'configs/samplers/random.gin'
-include 'configs/proxies/hypergrid.gin'
-include 'configs/rewards/linear.gin'
-include 'configs/objectives/trajectory_balance.gin'
+include '/arc/home/robiny12/RetroGFN/configs/users/piotr.gin'
+include '/arc/home/robiny12/RetroGFN/configs/loggers/wandb.gin'
+include '/arc/home/robiny12/RetroGFN/configs/envs/hypergrid.gin'
+include '/arc/home/robiny12/RetroGFN/configs/policies/hypergrid.gin'
+include '/arc/home/robiny12/RetroGFN/configs/samplers/random.gin'
+include '/arc/home/robiny12/RetroGFN/configs/proxies/hypergrid.gin'
+include '/arc/home/robiny12/RetroGFN/configs/rewards/linear.gin'
+include '/arc/home/robiny12/RetroGFN/configs/objectives/trajectory_balance.gin'
 
 env_size = 16
 n_dimensions = 4

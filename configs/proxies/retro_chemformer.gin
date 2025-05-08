@@ -1,4 +1,4 @@
-RetroChemformerProxy.checkpoint_path = 'checkpoints/feasibility_proxies/chemformer/train'
+RetroChemformerProxy.checkpoint_path = '/arc/home/robiny12/RetroGFN/checkpoints/feasibility_proxies/chemformer/train'
 train/RetroChemformerProxy.quantized = True
 valid/RetroChemformerProxy.quantized = False
 

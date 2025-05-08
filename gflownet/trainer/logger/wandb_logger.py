@@ -45,7 +45,8 @@ class WandbLogger(LoggerBase):
         self.run.log(metrics)
 
     def log_code(self, source_path: str | Path):
-        self.run.log_code(root=str(source_path))
+        # self.run.log_code(root=str(source_path))
+        pass
 
     def log_to_file(self, content: Any, name: str, type: str = "txt"):
         if type == "json":
